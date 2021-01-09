@@ -1362,7 +1362,7 @@ class GotNextBot:
 def run_pgm():
     date = datetime.today().strftime("%Y-%m-%d")
     logger.add(f"Log_{date}_GotNextBot.txt")
-    my_bot = GotNextBot(token="1150426634:AAHx71JH6IFh4yLW53gjQclhhqh5z11Bb9Y")
+    my_bot = GotNextBot(token=)
     my_bot.load_data()
     my_bot.main()
 
